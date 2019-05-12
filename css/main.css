@@ -15,7 +15,7 @@ body {
 	color: #fff;
 	margin: 0;
 	background: rgb(238,174,202);
- 	background: -moz-linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	background: -moz-linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 	background: -webkit-linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 	background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
@@ -29,19 +29,19 @@ h1 {
 }
 
 h2 {
-   font-size: 16px;
-   font-weight: 300;
-   text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 300;
+	text-transform: uppercase;
 }
 
 h3 {
-    font-size: 22px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
+	font-size: 22px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
 }
 
 p {
-    font-size: 16px;
+	font-size: 16px;
 	margin-bottom: 30px;
 	line-height: 30px;
 }
@@ -55,14 +55,14 @@ img {
 	margin-left: auto;
 }
 
-
 a:link, a:active,a:visited {
-    color: #9a7fba;
-    text-decoration: none;
+	color: #9a7fba;
+	text-decoration: none;
 }
+
 a:hover {
-    text-decoration: underline;
-    color: #9774c1;
+	text-decoration: underline;
+	color: #9774c1;
 }
 
 main {
@@ -73,7 +73,7 @@ main {
 }
 
 footer {
-    text-align: center;
+	text-align: center;
 	position: relative;
 	height: 65px;
 	bottom: 0;
@@ -82,18 +82,18 @@ footer {
 }
 
 footer a:link, a:active,a:visited {
-    color: white;
-    text-decoration: none;
-    text-align: center;
+	color: white;
+	text-decoration: none;
+	text-align: center;
 }
 
 footer a:hover {
-    opacity: 0.5;
-    text-align: center;
+	opacity: 0.5;
+	text-align: center;
 }
 
 .center {
-    text-align:center;
+	text-align: center;
 }
 
 .button {
@@ -112,8 +112,8 @@ nav {
 }
 
 li {
-    font-size: 12px;
-    line-height: 20px;
+	font-size: 12px;
+	line-height: 20px;
 }
 
 .hero {
@@ -126,7 +126,7 @@ li {
     background-image: url(https://i.pinimg.com/originals/6c/0b/54/6c0b541ca892b09a03813ed2ac674444.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: cover;*/
+	background-size: cover;*/;
 }
 
 .container {
@@ -137,14 +137,14 @@ li {
 }
 
 .left {
-    float: left;
+	float: left;
 }
 
 .right {
-    float: right;
+	float: right;
 }
 
 ion-icon {
-    font-size: 56px;
-    padding: 10px;
+	font-size: 56px;
+	padding: 10px;
 }
