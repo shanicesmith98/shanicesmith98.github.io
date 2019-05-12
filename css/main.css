@@ -11,17 +11,16 @@ font-family: 'Asap', sans-serif; 98cfd9
 */
 
 body {
-    font-family: 'Source Code Pro', monospace;
+	font-family: 'Source Code Pro', monospace;
 	color: #fff;
 	margin: 0;
-    /*background-color: #7b8bb0;*/
-    	background: rgb(238,174,202);
-    background: -moz-linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-background: -webkit-linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
-
+	background: rgb(238,174,202);
+ 	background: -moz-linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
 }
+
 h1 {
 	font-size: 64px;
 	font-weight: 300;
@@ -100,10 +99,7 @@ footer a:hover {
 .button {
 	background-color: white;
 	opacity: 0.8;
-	padding-top: 6px;
-	padding-right: 12px;
-	padding-bottom: 6px;
-	padding-left: 12px;
+	padding: 8px;
 	color: #fff;
 	border-radius: 4px;
 	text-transform: uppercase;
