@@ -96,6 +96,10 @@ footer a:hover {
 	text-align: center;
 }
 
+.about {
+	text-align: justify;
+}
+
 .button {
 	background-color: white;
 	opacity: 0.8;
