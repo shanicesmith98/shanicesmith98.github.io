@@ -55,7 +55,7 @@ img {
 	margin-left: auto;
 }
 
-a:link, a:active,a:visited {
+a:link, a:active, a:visited {
 	color: #9a7fba;
 	text-decoration: none;
 }
@@ -81,7 +81,7 @@ footer {
 	margin-bottom: 10px;
 }
 
-footer a:link, a:active,a:visited {
+footer a:link {
 	color: white;
 	text-decoration: none;
 	text-align: center;
