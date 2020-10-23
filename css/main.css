@@ -71,10 +71,3 @@
 	text-align: center;
 	color: white;
   }
-  #love {
-	  transition: filter 300ms;
-	  font-style: bold;
-  }
-  #love:hover {
-	filter: brightness(1.2);
-  }
