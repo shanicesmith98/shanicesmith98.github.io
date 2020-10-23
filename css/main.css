@@ -80,3 +80,12 @@
 	font-size: 35px;
 	padding: 15px;
   }
+
+  .cd-top--is-visible { 
+	visibility: visible;
+	opacity: 1;
+  }
+  
+  .cd-top--fade-out {
+	opacity: .5;
+  }
