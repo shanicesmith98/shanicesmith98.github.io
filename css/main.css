@@ -46,6 +46,10 @@
 	  font-size: 40px;
 	  font-style: bold;
   }
+
+  #contact {
+	  color: white;
+  }
   
   .section {
 	line-height: 1.6;
@@ -70,4 +74,9 @@
 	animation: pulse 35s infinite;
 	text-align: center;
 	color: white;
+  }
+
+  ion-icon {
+	font-size: 35px;
+	padding: 15px;
   }
