@@ -55,7 +55,8 @@
 	line-height: 1.6;
   }
   
-  .section > h2 {
+  .section > h2,
+  .section > button {
 	color: black;
   }
   
