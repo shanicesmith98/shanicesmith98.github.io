@@ -1,5 +1,5 @@
 .purple-bg {
-	background-color: #958bc4;
+	background-color: #94bbe9;
   }
   
   html,
@@ -56,18 +56,21 @@
   }
 
   a:link {
-
+	color: white;
   }
 
   a:visited {
-
+	color: #3273dc;
   }
 
-  a:hover {
+  a:hover:not(ion-icon) {
+	color: #3273dc;
 	text-decoration: underline;
   }
 
-  a:active {
+a:active:not(ion-icon),
+a:focus:not(ion-icon) {
+	color: #3273dc;
 	text-decoration: underline;
   }
 
