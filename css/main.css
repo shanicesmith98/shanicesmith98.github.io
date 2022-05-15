@@ -1,5 +1,5 @@
 .purple-bg {
-	background-color: #94bbe9;
+	background-color: #786aba;
   }
   
   html,
@@ -11,20 +11,17 @@
   }
 
   a:link {
-	color: white;
+	color: #5432dc;
   }
 
   a:hover {
 	color: #3273dc;
+  text-decoration: underline;
   }
 
 a:focus {
 	color: #3273dc;
 	text-decoration: underline;
-  }
-  
-  .navbar-item {
-	color: white;
   }
   
   .hello {
@@ -40,10 +37,6 @@ a:focus {
 	  font-style: bold;
   }
 
-  #contact {
-	  color: white;
-  }
-  
   .section {
 	line-height: 1.6;
   }
@@ -51,24 +44,8 @@ a:focus {
   .section > h2 {
 	color: black;
   }
-
-  .about > a:link {
-	color: #94bbe9;
-  }
-  
-  .icon {
-	  font-size: 40px;
-	  color: white;
-	  margin-left: 15px;
-	  margin-right: 15px;
-  }
   
   .subtitle {
-	color: white;
-  }
-  
-  footer {
-	animation: pulse 35s infinite;
 	color: white;
   }
 
@@ -76,4 +53,8 @@ a:focus {
 	font-size: 42px;
 	padding: 12px;
 	color: white;
+  }
+
+  ion-icon:hover {
+    opacity: 70%;
   }
