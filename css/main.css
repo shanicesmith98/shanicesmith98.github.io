@@ -1,60 +1,53 @@
 .purple-bg {
-	background-color: #786aba;
-  }
-  
-  html,
-  body {
-	height: 100%;
-	background-color: white;
-	font-family: 'Poppins', sans serif;
-	scroll-behavior: smooth;
-  }
+  background-color: #786aba;
+}
 
-  a:link {
-	color: #5432dc;
-  }
+html,
+body {
+  height: 100%;
+  background-color: white;
+  font-family: "Poppins", sans serif;
+  scroll-behavior: smooth;
+}
 
-  a:hover {
-	color: #3273dc;
+a:link {
+  color: #5432dc;
+}
+
+a:hover {
+  color: #3273dc;
   text-decoration: underline;
-  }
+}
 
 a:focus {
-	color: #3273dc;
-	text-decoration: underline;
-  }
-  
-  .hello {
-	font-family: 'Poppins', monospace;
-	  font-size: 74px;
-	  font-style: bold;
-	  color: white;
-  }
-  
-  #hack {
-	font-family: 'VT323', monospace;
-	  font-size: 40px;
-	  font-style: bold;
-  }
+  color: #3273dc;
+  text-decoration: underline;
+}
 
-  .section {
-	line-height: 1.6;
-  }
-  
-  .section > h2 {
-	color: black;
-  }
-  
-  .subtitle {
-	color: white;
-  }
+.hello {
+  font-size: 74px;
+  font-style: bold;
+  color: white;
+}
 
-  ion-icon {
-	font-size: 42px;
-	padding: 12px;
-	color: white;
-  }
+.section {
+  line-height: 1.6;
+}
 
-  ion-icon:hover {
-    opacity: 70%;
-  }
+.section > h2 {
+  color: black;
+}
+
+.subtitle {
+  color: white;
+}
+
+ion-icon {
+  font-size: 48px;
+  padding: 15px;
+  color: white;
+}
+
+ion-icon:hover {
+  opacity: 70%;
+}
