@@ -1,8 +1,6 @@
 @import url("https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
 
-/* TODO: create variables for styling */
-
 :root {
   --primary-font: "Karla", sans-serif;
   --primary-purple-background: #786aba;
