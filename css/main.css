@@ -3,18 +3,26 @@
 
 :root {
   --primary-font: "Karla", sans-serif;
-  --primary-purple-background: #786aba;
+  --primary-purple-hero-background: #786aba;
   --primary-icon-background: white;
+  --primary-default-mode-background: white;
+  --primary-dark-mode-background: black;
+  --primary-font-color:
 }
 
-.purple-bg {
-  background-color: var(--primary-purple-background);
+.hero-bg {
+  background-color: var(--primary-purple-hero-background);
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
 }
 
 html,
 body {
   height: 100%;
-  background-color: white;
+  background-color: var(--primary-default-mode-background);
   font-family: var(--primary-font);
   scroll-behavior: smooth;
 }
