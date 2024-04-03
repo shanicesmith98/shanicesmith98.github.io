@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="One-pager for Shanice Smith's website, a Software Engineer located in NYC."
+      content="A website for Shance Smith, a NYC Software Engineer and Game Developer."
     />
     
     <link rel="stylesheet" href="css/main.css" />
@@ -26,7 +26,7 @@
   </head>
 
   <body>
-    <div class="hero-bg">
+    <div class="hero-background">
       <section class="hero is-fullheight">
         <div class="hero-body">
           <div class="container has-text-centered">
@@ -34,7 +34,7 @@
             <h2 class="hello subtitle is-4">
               I'm Shanice, a Software Engineer & Advocate for Diversity in Tech
             </h2>
-            <p>
+            <div>
               <a
                 href="https://www.github.com/shanicesmith98"
                 target="_blank"
@@ -61,15 +61,15 @@
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <ion-icon name="document-outline" aria-label="Resume"></ion-icon
+                <ion-icon name="document" aria-label="Resume"></ion-icon
               ></a>
-              <ion-button onClick="turnOnDarkMode()">
-                <ion-icon name="moon" aria-label="Dark mode"></ion-icon>
+              <ion-button onClick="turnOnDarkMode()" tabindex="0" aria-label="Dark mode">
+                <ion-icon name="moon" aria-hidden="true"></ion-icon>
               </ion-button>
-              <ion-button onClick="turnOnLightMode()">
-                <ion-icon name="sunny" aria-label="Light mode"></ion-icon>
+              <ion-button onClick="turnOnLightMode()" tabindex="0" aria-label="Light mode">
+                <ion-icon name="sunny" aria-hidden="true"></ion-icon>
               </ion-button>
-            </p>
+            </div>
           </div>
         </div>
       </section>
