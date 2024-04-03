@@ -25,15 +25,12 @@
     />
   </head>
 
-  <body>
+  <body class="">
     <div class="hero-background">
       <section class="hero is-fullheight">
-        <nav class="hero-nav">
-          <ion-button onClick="turnOnDarkMode()" tabindex="0" aria-label="Dark mode">
+        <nav class="hero-nav is-flex is-justify-content-flex-end">
+          <ion-button id="darkModeToggle" tabindex="0" aria-label="Dark mode">
             <ion-icon name="moon" aria-hidden="true"></ion-icon>
-          </ion-button>
-          <ion-button onClick="turnOnLightMode()" tabindex="0" aria-label="Light mode">
-            <ion-icon name="sunny" aria-hidden="true"></ion-icon>
           </ion-button>
         </nav>
         <div class="hero-body">

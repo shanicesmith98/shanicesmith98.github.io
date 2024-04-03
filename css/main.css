@@ -1,47 +1,48 @@
 @import url("https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+@import "./darkstyles.css";
 
 :root {
   --primary-font: "Karla", sans-serif;
-  --primary-purple-background: #786aba;
+  --primary-hero-background: #786aba;
   --primary-icon-background: white;
-  --primary-default-mode-background: white;
-  --primary-dark-mode-background: black;
+  --primary-background: white;
+  --primary-hero-title: white;
+  --primary-subtitle: black;
+  --primary-text: #4a4a4a;
+  --primary-link: #5432dc;
+  --primary-link-hover: #3273dc;
 }
 
 html,
 body {
   height: 100%;
-  background-color: var(--primary-default-mode-background);
+  background-color: var(--primary-background);
   font-family: var(--primary-font);
+  color: var(--primary-text);
   scroll-behavior: smooth;
 }
 
-.hero-background {
-  background-color: var(--primary-purple-background);
+body .hero-background {
+  background-color: var(--primary-hero-background);
 }
 
-.dark-mode {
-  background-color: black;
-  color: white;
+body a:link {
+  color: var(--primary-link);
 }
 
-a:link {
-  color: #5432dc;
-}
-
-a:hover {
-  color: #3273dc;
+body a:hover {
+  color: var(--primary-link-hover);
   text-decoration: underline;
 }
 
-a:focus {
-  color: #3273dc;
+body a:focus {
+  color: var(--primary-link-hover);
   text-decoration: underline;
 }
 
-.hello {
-  color: white;
+body .hello {
+  color: var(--primary-hero-title);
 }
 
 .section {
@@ -49,7 +50,7 @@ a:focus {
 }
 
 .section > h2 {
-  color: black;
+  color: var(--primary-subtitle);
 }
 
 ion-icon {
