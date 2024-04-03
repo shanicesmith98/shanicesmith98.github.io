@@ -9,7 +9,7 @@
   --primary-background: white;
   --primary-hero-title: white;
   --primary-subtitle: black;
-  --primary-text: #4a4a4a;
+  --primary-text: black;
   --primary-link: #5432dc;
   --primary-link-hover: #3273dc;
 }
@@ -19,6 +19,7 @@ body {
   height: 100%;
   background-color: var(--primary-background);
   font-family: var(--primary-font);
+  font-size: 1.1em;
   color: var(--primary-text);
   scroll-behavior: smooth;
 }
