@@ -2,13 +2,14 @@
 
 :root {
     --secondary-hero-background: #232227;
-    --secondary-icon-background: #bf61ae;
+    --secondary-icon-background: #786aba;
     --secondary-toggle-background: #232227;
     --secondary-background: #232227;
-    --secondary-hero-title: #bf61ae;
+    --secondary-navbar: #786aba;
+    --secondary-hero-title: #786aba;
     --secondary-subtitle: white;
     --secondary-text: white;
-    --secondary-link: #bf61ae;
+    --secondary-link: #786aba;
     --secondary-link-hover: #48779d;
 }
 
@@ -33,6 +34,10 @@ body.dark {
         .subtitle {
             color: var(--secondary-subtitle);
         }
+      }
+
+      .navbar {
+        background-color: var(--secondary-navbar);
       }
 
 a:link {

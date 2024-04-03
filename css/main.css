@@ -8,6 +8,7 @@
   --primary-icon-background: white;
   --primary-toggle-background: #786aba;
   --primary-background: white;
+  --primary-navbar: white;
   --primary-hero-title: white;
   --primary-subtitle: black;
   --primary-text: black;
@@ -28,6 +29,10 @@ body {
   background-color: var(--primary-hero-background);
 }
 
+.navbar {
+  background-color: var(--primary-navbar);
+}
+
  a:link {
   color: var(--primary-link);
 }
@@ -45,6 +50,13 @@ a:focus {
 .card {
   margin: 10px;
   background-color: var(--primary-background);
+  color: var(--primary-text);
+  box-shadow: 0 0.5em 1em -0.125em rgba(161, 161, 161, 0.1), 0 0 0 1px rgba(180, 180, 180, 0);
+
+  .title,
+  .subtitle {
+      color: var(--primary-subtitle);
+  }
 }
 
 .hello {
