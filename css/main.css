@@ -33,7 +33,8 @@ body {
   background-color: var(--primary-navbar);
 }
 
- a:link {
+a,
+a:link {
   color: var(--primary-link);
 }
 

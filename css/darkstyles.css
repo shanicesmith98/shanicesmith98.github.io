@@ -9,7 +9,7 @@
     --secondary-hero-title: #786aba;
     --secondary-subtitle: white;
     --secondary-text: white;
-    --secondary-link: #786aba;
+    --secondary-link: #8a7dc5;
     --secondary-link-hover: #48779d;
 }
 
@@ -20,6 +20,7 @@
 }
 
 body.dark {
+    height: 100%;
     .hero-background {
         background-color: var(--secondary-hero-background);
     }
@@ -40,6 +41,7 @@ body.dark {
         background-color: var(--secondary-navbar);
       }
 
+a,
 a:link {
     color: var(--secondary-link);
   }
