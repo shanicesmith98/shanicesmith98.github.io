@@ -1,14 +1,17 @@
 @import url("https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css");
 
-:root {
-    --secondary-hero-background: #232227;
-    --secondary-icon-background: #bf61ae;
-    --secondary-background: #232227;
-    --secondary-hero-title: #bf61ae;
-    --secondary-subtitle: white;
-    --secondary-text: white;
-    --secondary-link: #bf61ae;
-    --secondary-link-hover: #48779d;
+@media (prefers-color-scheme: dark) {
+    :root {
+        --secondary-hero-background: #232227;
+        --secondary-icon-background: #bf61ae;
+        --secondary-toggle-background: #232227;
+        --secondary-background: #232227;
+        --secondary-hero-title: #bf61ae;
+        --secondary-subtitle: white;
+        --secondary-text: white;
+        --secondary-link: #bf61ae;
+        --secondary-link-hover: #48779d;
+    }
 }
 
 [data-theme=dark],
@@ -53,6 +56,11 @@ a:link {
     font-size: 48px;
     padding: 15px;
     color: var(--secondary-icon-background);
+  }
+
+  .icon-toggle {
+    font-size: 32px;
+    color: var(--secondary-toggle-background);
   }
   
   ion-icon:hover {
