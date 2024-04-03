@@ -1,17 +1,15 @@
 @import url("https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css");
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --secondary-hero-background: #232227;
-        --secondary-icon-background: #bf61ae;
-        --secondary-toggle-background: #232227;
-        --secondary-background: #232227;
-        --secondary-hero-title: #bf61ae;
-        --secondary-subtitle: white;
-        --secondary-text: white;
-        --secondary-link: #bf61ae;
-        --secondary-link-hover: #48779d;
-    }
+:root {
+    --secondary-hero-background: #232227;
+    --secondary-icon-background: #bf61ae;
+    --secondary-toggle-background: #232227;
+    --secondary-background: #232227;
+    --secondary-hero-title: #bf61ae;
+    --secondary-subtitle: white;
+    --secondary-text: white;
+    --secondary-link: #bf61ae;
+    --secondary-link-hover: #48779d;
 }
 
 [data-theme=dark],
