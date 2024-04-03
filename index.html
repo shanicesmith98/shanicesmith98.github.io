@@ -27,7 +27,7 @@
 
   <body>
     <div class="hero-bg">
-      <section class="hero is-fullheight element">
+      <section class="hero is-fullheight">
         <div class="hero-body">
           <div class="container has-text-centered">
             <h1 class="hello title is-1">Hello, World!</h1>
@@ -40,30 +40,35 @@
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <ion-icon name="logo-github"></ion-icon>
+                <ion-icon name="logo-github" aria-label="GitHub"></ion-icon>
               </a>
               <a
                 href="https://www.linkedin.com/in/shanicesmith-swe/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <ion-icon name="logo-linkedin"></ion-icon>
+                <ion-icon name="logo-linkedin" aria-label="LinkedIn"></ion-icon>
               </a>
               <a
                 href="https://twitter.com/hackergem/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <ion-icon name="logo-twitter"></ion-icon
+                <ion-icon name="logo-twitter" aria-label="Twitter"></ion-icon
               ></a>
               <a
                 href="https://drive.google.com/file/d/1E345M6FPpN3xtrLBczKmNwcyXpCMgFiz/view?usp=share_link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <ion-icon name="document-outline"></ion-icon
+                <ion-icon name="document-outline" aria-label="View resume"></ion-icon
               ></a>
-              <button onClick="turnOnDarkMode()"></button>
+              <ion-button onClick="turnOnDarkMode()">
+                <ion-icon name="moon" aria-label="Dark mode"></ion-icon>
+              </ion-button>
+              <ion-button onClick="turnOnDarkMode()">
+                <ion-icon name="sunny" aria-label="Light mode"></ion-icon>
+              </ion-button>
             </p>
           </div>
         </div>
