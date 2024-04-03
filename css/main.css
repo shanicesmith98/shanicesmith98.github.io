@@ -23,27 +23,31 @@ body {
   font-size: 1.1em;
   color: var(--primary-text);
   scroll-behavior: smooth;
-}
 
-body .hero-background {
+.hero-background {
   background-color: var(--primary-hero-background);
 }
 
-body a:link {
+ a:link {
   color: var(--primary-link);
 }
 
-body a:hover {
+ a:hover {
   color: var(--primary-link-hover);
   text-decoration: underline;
 }
 
-body a:focus {
+a:focus {
   color: var(--primary-link-hover);
   text-decoration: underline;
 }
 
-body .hello {
+.card {
+  margin: 10px;
+  background-color: var(--primary-background);
+}
+
+.hello {
   color: var(--primary-hero-title);
 }
 
@@ -68,4 +72,5 @@ ion-icon {
 
 ion-icon:hover {
   opacity: 70%;
+}
 }

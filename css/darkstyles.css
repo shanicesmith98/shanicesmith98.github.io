@@ -25,6 +25,18 @@ body.dark {
         background-color: var(--secondary-hero-background);
     }
 
+    .card {
+        margin: 10px;
+        background-color: var(--secondary-background);
+        color: var(--secondary-text);
+        box-shadow: 0 0.5em 1em -0.125em rgba(161, 161, 161, 0.1), 0 0 0 1px rgba(180, 180, 180, 0);
+
+        .title,
+        .subtitle {
+            color: var(--secondary-subtitle);
+        }
+      }
+
 a:link {
     color: var(--secondary-link);
   }
