@@ -28,6 +28,14 @@
   <body>
     <div class="hero-background">
       <section class="hero is-fullheight">
+        <nav class="hero-nav">
+          <ion-button onClick="turnOnDarkMode()" tabindex="0" aria-label="Dark mode">
+            <ion-icon name="moon" aria-hidden="true"></ion-icon>
+          </ion-button>
+          <ion-button onClick="turnOnLightMode()" tabindex="0" aria-label="Light mode">
+            <ion-icon name="sunny" aria-hidden="true"></ion-icon>
+          </ion-button>
+        </nav>
         <div class="hero-body">
           <div class="container has-text-centered">
             <h1 class="hello title is-1">Hello, World!</h1>
@@ -63,12 +71,6 @@
               >
                 <ion-icon name="document" aria-label="Resume"></ion-icon
               ></a>
-              <ion-button onClick="turnOnDarkMode()" tabindex="0" aria-label="Dark mode">
-                <ion-icon name="moon" aria-hidden="true"></ion-icon>
-              </ion-button>
-              <ion-button onClick="turnOnLightMode()" tabindex="0" aria-label="Light mode">
-                <ion-icon name="sunny" aria-hidden="true"></ion-icon>
-              </ion-button>
             </div>
           </div>
         </div>
