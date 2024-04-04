@@ -1,9 +1,9 @@
 @import url("https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css");
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import "./darkstyles.css";
 
 :root {
-  --primary-font: "Roboto", sans-serif;
+  --primary-font: "Inter", sans-serif;
   --primary-hero-background: #786aba;
   --primary-icon-background: white;
   --primary-toggle-background: #786aba;
@@ -30,6 +30,11 @@ body {
   img {
     width: 100%;
     height: auto;
+  }
+
+  .title,
+  .subtitle {
+      color: var(--primary-hero-title);
   }
 
 .hero-background {
@@ -63,34 +68,30 @@ a:focus {
 
   .title,
   .subtitle {
-      color: var(--primary-subtitle);
+      color: var(--primary-text);
   }
 }
 
-.hello {
-  color: var(--primary-hero-title);
-}
+  .section {
+    line-height: 1.6;
 
-.section {
-  line-height: 1.6;
-}
+    h2 {
+    color: var(--primary-subtitle);
+    }
+  }
 
-.section > h2 {
-  color: var(--primary-subtitle);
-}
+  ion-icon {
+    font-size: 48px;
+    padding: 15px;
+    color: var(--primary-icon-background);
+  }
 
-ion-icon {
-  font-size: 48px;
-  padding: 15px;
-  color: var(--primary-icon-background);
-}
+  .icon-toggle {
+    font-size: 32px;
+    color: var(--primary-toggle-background);
+  }
 
-.icon-toggle {
-  font-size: 32px;
-  color: var(--primary-toggle-background);
-}
-
-ion-icon:hover {
-  opacity: 70%;
-}
+  ion-icon:hover {
+    opacity: 70%;
+  }
 }
