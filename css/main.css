@@ -48,6 +48,7 @@ body {
 a,
 a:link {
   color: var(--primary-link);
+  display: inline-block;
 }
 
  a:hover {
