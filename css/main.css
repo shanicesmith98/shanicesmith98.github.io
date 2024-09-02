@@ -90,6 +90,7 @@ a:focus {
   ion-icon.menu-icon {
     color: var(--primary-toggle-background);
     font-size: 32px;
+    cursor: pointer;
   }
 
   ion-icon:hover {

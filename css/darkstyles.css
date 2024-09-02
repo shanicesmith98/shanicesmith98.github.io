@@ -73,6 +73,7 @@ a:link {
   ion-icon.menu-icon {
     color: var(--secondary-toggle-background);
     font-size: 32px;
+    cursor: pointer;
   }
   
   ion-icon:hover {
