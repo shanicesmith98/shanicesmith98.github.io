@@ -70,9 +70,9 @@ a:link {
     color: var(--secondary-icon-background);
   }
 
-  .icon-toggle {
-    font-size: 32px;
+  ion-icon.menu-icon {
     color: var(--secondary-toggle-background);
+    font-size: 32px;
   }
   
   ion-icon:hover {

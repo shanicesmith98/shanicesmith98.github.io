@@ -87,9 +87,9 @@ a:focus {
     color: var(--primary-icon-background);
   }
 
-  .icon-toggle {
-    font-size: 32px;
+  ion-icon.menu-icon {
     color: var(--primary-toggle-background);
+    font-size: 32px;
   }
 
   ion-icon:hover {
