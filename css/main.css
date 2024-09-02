@@ -8,7 +8,7 @@
   --primary-icon-background: white;
   --primary-toggle-background: #786aba;
   --primary-background: white;
-  --primary-navbar: white;
+  --primary-navbar: #786aba;
   --primary-hero-title: white;
   --primary-subtitle: black;
   --primary-text: black;
@@ -88,7 +88,6 @@ a:focus {
   }
 
   ion-icon.menu-icon {
-    color: var(--primary-toggle-background);
     font-size: 32px;
     cursor: pointer;
   }
